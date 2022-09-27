@@ -1,0 +1,95 @@
+.container .row .col img{
+    width: 380px;
+    height: 380px;
+}
+
+.container .col h1{
+    font-size: 72px;
+}
+
+.dic-contenedor{
+    align-content: center;
+}
+
+.div-parrafo{
+    position: relative;
+    top: 25px;
+}
+
+.parrafo{
+    text-align: center;
+    color: #D18E41;
+    
+}
+
+.icono-wsp{
+    font-size: 150%;
+    color: greenyellow;
+}
+
+.icono-ig{
+    font-size: 150%;
+    color: purple;
+}
+
+.titulo{
+    position: relative;
+    top: 20PX;
+    left: 10px;
+    color: #D18E41;
+}
+
+.subtitulo{
+    color: #D18E41;
+    text-align: center;
+}
+
+.row-titulo{
+    position: relative;
+    top: 50%;
+    left: 32%;
+}
+
+.logo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rrss{
+    position: relative;
+    top: 60px;
+}
+
+.grafico{
+    height: 70%;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    background: white;
+    padding: 30px;
+}
+
+.div-grafico{
+    height: 70%;
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    background: white;
+    padding: 10px;
+}
+
+.cont{
+    height: 1000px;
+    width: 1000px;
+}
+
+.barChart{
+    height: 100%;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,148 @@
+.flex-container {
+    display: flex;
+    width: 600px;
+    background-color: #DDF58C;
+}
+
+.flex-item {
+    background-color: #67C3E6;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+body{
+    background: url(../images/hojas.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.main-section{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: teal;
+    opacity: .85;
+
+}
+.user-image{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+.user-image image{
+    width: 100px;
+    height: 100px;
+}
+
+.form-group input{
+    padding-left: 54px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    font-weight: 900;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#esp-group::before{
+    content: "\f1b0";
+}
+
+.form-group#pass-group::before{
+    content: "\f023";
+}
+
+.form-group#email-group::before{
+    content: "\f0e0";
+}
+
+.form-group#noticia-group::before{
+    content: "\f1ea";
+}
+
+.form-group#image-group::before{
+    content: "\f302";
+}
+
+.form-group#valor-group::before{
+    content: "\f155";
+}
+
+.form-group#descripcion-group::before{
+    content: "\f044";
+}
+
+.form-group#rrss-group::before{
+    content: "\f0c0";
+}
+
+.form-group#transaccion-group::before{
+    content: "\f0ac";
+}
+
+.form-group#nombre-group::before{
+    content: "\f5b7";
+}
+
+.form-group#link-group::before{
+    content: "\f0c1";
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+
+.div-noticia{
+    background: white;
+    opacity: 75%;
+}
+
+.div-contenido{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.div-descripcion{
+    margin: auto;
+}
+
+.div-contenido-fecha{
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+.div-botones{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+.ajustado{
+    justify-content: left;
+}
+
+.compra{
+    background: white;
+    opacity: 75%;
+}
+ 
+.div-botones{
+    text-align: end;
+}
+
