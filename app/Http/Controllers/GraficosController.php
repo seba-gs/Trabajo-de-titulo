@@ -39,15 +39,17 @@ class GraficosController extends Controller
             $cantidad = $cantidad + 1;
         };
 
-        $idF = DB::select('SELECT id_foto FROM Compras
+        $idF = DB::select('SELECT id_foto, count(*) as cont
+                                    FROM Compras
                                     GROUP BY id_foto
-                                    HAVING COUNT(*)>1
-                                    LIMIT 0, 1');
+                                    HAVING COUNT(*)>=1
+                                    ORDER BY cont ASC');
         
-        $masvendido = Fotografia::where('id', $idF[0]->id_foto)->first();
-        
+        $menosVendido = Fotografia::where('id', $idF[0]->id_foto)->first();
+        $cont = sizeof($idF);
+        $masVendido = Fotografia::where('id', $idF[$cont - 1]->id_foto)->first();
         
 
-        return view('Graficos.GraficoGeneral', compact('datas', 'total', 'cantidad', 'masvendido'));
+        return view('Graficos.GraficoGeneral', compact('datas', 'total', 'cantidad', 'menosVendido', 'masVendido'));
     }
 }

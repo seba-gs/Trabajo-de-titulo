@@ -7,18 +7,20 @@
         </div>
         <div class="row grafico">
             <div class="row">
-                <h3>Agregar contenido</h3>
+                <h3>Estadisticas</h3>
                 <table class="table table-striped" style="margin: 1px">
                     <thead>
                         <tr>
                             <th>Ventas anuales</th>
                             <th>Total en pesos</th>
+                            <th>Producto menos vendido</th>
                             <th>Producto mas vendido</th>
                         </tr>
                         <tr>
                             <td>{{$cantidad}}</td>
                             <td>${{number_format($total, 0, ",", ".")}}</td>
-                            <td>{{$masvendido -> nombre}}</td>
+                            <td>{{$menosVendido -> nombre}}</td>
+                            <td>{{$masVendido -> nombre}}</td>
                         </tr>
                     </thead>
             </div>

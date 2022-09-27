@@ -1,4 +1,3 @@
-
 <?php $__env->startSection('contenido-principal'); ?>
     <div class="container-flex">
         <div class="column text-center compra" style="padding: 5px">
